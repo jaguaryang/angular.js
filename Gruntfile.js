@@ -504,12 +504,12 @@ module.exports = function(grunt) {
     'validate-angular-files',
     'clean',
     'buildall',
-    'minall',
-    'collect-errors',
-    'write',
-    'docs',
-    'copy:i18n',
-    'compress:build'
+    // 'minall',
+    // 'collect-errors',
+    // 'write',
+    // 'docs',
+    // 'copy:i18n',
+    // 'compress:build'
   ]);
   grunt.registerTask('ci-checks', [
     'ddescribe-iit',

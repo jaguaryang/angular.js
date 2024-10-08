@@ -1550,6 +1550,9 @@ ASTInterpreter.prototype = {
       return context ? {value: arg} : arg;
     };
   },
+  'jack': function(){
+
+  },
   'binary&&': function(left, right, context) {
     return function(scope, locals, assign, inputs) {
       var arg = left(scope, locals, assign, inputs) && right(scope, locals, assign, inputs);
